@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------- HEADER SECTION START --------------  */
+.header-container {
+    margin-top: 50px;
+    width: 293px;
+}
+
+.header-text-lg {
+    color: #6F00BB;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.header-text-md {
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.header-costomer-name {
+    color: #6F00BB;
+}
+
+/* -------------- HEADER SECTION END --------------  */
+
+/* -------------- MAIN SECTION START--------------  */
+.main-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* QR SECTION START */
+.QR-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 293px;
+}
+
+.QR-image-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 0;
+    border-top: 1px solid #E8E9F6;
+    border-bottom: 1px solid #E8E9F6;
+}
+
+.QR-image {
+    width: 179px;
+    height: 179px;
+    margin-bottom: 6px;
+}
+
+.QR-name,
+.QR-ticket-type {
+    display: flex;
+    width: 179px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.QR-caution {
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.regist-time-desc {
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    /* font-weight: 400; */
+}
+
+.regist-time-list {
+    padding: 0;
+    font-weight: 700;
+}
+
+.regist-time-list-item {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.regist-time-conclusion {
+    letter-spacing: -0.32px;
+    margin-top: 6px;
+}
+
+/* QR SECTION END */
+
+/* MOBILE SECTION START */
+.mobile-section {
+    margin-top: 30px;
+    padding: 0px 30px 3px 30px;
+    background: #1B0A27;
+}
+
+.mobile-wrapper {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+.mobile-desc-box {
+    margin-top: 18px;
+    display: flex;
+    width: 273px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.mobile-desc {
+    display: flex;
+    width: 273px;
+    align-items: flex-start;
+    gap: 6px;
+
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.32px;
+}
+
+.mobile-slogan {
+    width: 273px;
+    margin-top: 24px;
+    color: #1B0A27;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.go-to-page-btn {
+    text-decoration: none;
+    margin-top: 17px;
+    display: flex;
+    width: 273px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: #6F00BB;
+
+    color: #FFF;
+    font-family: "PP Telegraf";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+/* MOBILE SECTION END */
+
+/* -------------- MAIN SECTION END--------------  */
+
+/* -------------- FOOTER SECTION START--------------  */
+
+.footer-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 293px;
+}
+
+.footer-contents-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.conference-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 14px 0;
+
+    border-top: 1px solid #E8E9F6;
+    border-bottom: 1px solid #E8E9F6;
+
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.conference-date {
+    display: flex;
+    width: 293px;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.conference-venue {
+    display: flex;
+    width: 293px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.venue-info {
+    width: 189px;
+}
+
+.footer-greetings {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact-email {
+    color: #1B0A27;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}

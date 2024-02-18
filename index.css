@@ -269,11 +269,12 @@ body {
 }
 
 .google-link {
-    text-decoration: underline;
+    
     color: #1B0A27;
 }
 .venue-info {
     width: 189px;
+    text-decoration: underline;
 }
 
 .map-icon {
